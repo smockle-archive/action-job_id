@@ -12,15 +12,15 @@ An action which outputs the identifier of a specified workflow-run’s job.
 
 ### `GITHUB_TOKEN`
 
-**Optional** A token to authenticate on behalf of the GitHub App installed on your repository. Default: `${{ github.token }}`
+**Required** A token to authenticate on behalf of the GitHub App installed on your repository.
 
 ### `GITHUB_REPOSITORY`
 
-**Optional** The owner and repository name. For example, `smockle/action-job_id`. Default: `${{ github.repository }}`
+**Required** The owner and repository name. For example, `smockle/action-job_id`.
 
 ### `GITHUB_RUN_ID`
 
-**Optional** A unique number for each run within a repository. This number does not change if you re-run the workflow run. Default: `${{ github.run_id }}`
+**Required** A unique number for each run within a repository. This number does not change if you re-run the workflow run.
 
 ## Outputs
 
