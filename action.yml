@@ -1,0 +1,17 @@
+name: "action-job_id"
+author: "smockle"
+description: "An action which outputs the identifier of a specified workflow-run’s job."
+inputs:
+  job_index:
+    description: "The index of the job whose identifier will be output. Defaults to the first job (located at index 0)."
+    required: false
+    default: 0
+outputs:
+  job_id:
+    description: "The job identifier retrieved by this action"
+runs:
+  using: "node12"
+  main: "index.js"
+branding:
+  icon: "briefcase"
+  color: "blue"
