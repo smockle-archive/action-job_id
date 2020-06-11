@@ -33,7 +33,7 @@ The job identifier retrieved by this action
 ```YAML
 - id: retrieve_job_id
   name: Retrieve 'job_id'
-  uses: "smockle/action-job_id@master"
+  uses: "smockle/action-job_id@main"
   with:
     job_index: 0
   env:
