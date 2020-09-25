@@ -14,7 +14,7 @@
   },
   "homepage": "https://github.com/smockle/action-job_id#readme",
   "dependencies": {
-    "@actions/core": "^1.2.5",
+    "@actions/core": "^1.2.6",
     "@actions/github": "^4.0.0"
   }
 }
